@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --mainred: #DE1537;
+    --darkred: #8F0C25;
+    --blue: #27A4F3;
+    --gray: #DEDEDE;
+    --green: #4CA459;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--gray);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.pokedex {
+    background: var(--mainred);
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.pokedex h1{
+    display: block;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+h3{
+    display: block;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pokedex input[type="text"] {
+    font-size: 2rem;
+    margin: 25px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    text-align: center;
+}
+
+.pokedex .btn{
+    display: inline-block;
+    padding: 20px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+
+}
+
+.pokedex form{
+    text-align: center;
+}
+
+
+
+.poke-img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid var(--gray);
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5%;
+
+}
+
+.poke-img img{
+    width: 100%;
+}
